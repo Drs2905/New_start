@@ -1,0 +1,25 @@
+div{
+    height:100px;
+    width:900px;
+    border-width:5px;
+    border-style:solid;
+    border-color:black;
+
+border-right-color:black;
+border-left-color:yellow;
+border-top-color:blue;
+border-bottom-color:red;
+/* border-radius:100px; */
+padding-left:50px;
+padding-top:50px;
+margin-bottom:25px;
+}
+button{
+border:2px solid black;
+border-radius:10px;
+border-left:10px;
+border-right:25px;
+padding-right:25px;
+background-color:yellow;
+
+}
