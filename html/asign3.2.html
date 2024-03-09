@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asign3.2</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="myname" />
+        </div>
+        <div>
+            <label for="gen">Sex:</label>
+            <input type="radio" id="gen" name="gender" value="male" />male
+            <input type="radio" id="gen" name="gender" value="female">female
+            </div>
+            <div>Country:
+                <select name="Country" id="county">
+                    <option value="Select an option">selct an option</option>
+                </select>
+            </div>
+            <div>Message:
+               <textarea></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="sub" name="subs" />
+                <label for="sub">Subscribe?</label>
+            </div>
+            <button>submit</button>
+    </form>
+</body>
+</html>
